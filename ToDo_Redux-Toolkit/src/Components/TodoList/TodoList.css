@@ -1,0 +1,12 @@
+.todoList {
+  overflow: hidden;
+  padding: 0 0.3rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.655);
+}
+
+@media screen and (min-width: 481px) {
+    
+  .todoList {
+    padding: 0 0.6rem;
+  }
+}

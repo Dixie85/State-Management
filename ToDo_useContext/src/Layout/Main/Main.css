@@ -1,0 +1,18 @@
+.main {
+  width: 100%;
+  padding: 0 0.5rem;
+  min-height: 81vh;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.lightTheme-main { 
+  background-color: rgba(157, 161, 165, 0.704);
+}
+
+@media screen and (min-width: 481px) {
+  .main {
+    padding: 0 1rem;
+    min-height: 83vh;
+  }
+}

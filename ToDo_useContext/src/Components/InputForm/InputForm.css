@@ -1,0 +1,67 @@
+.user-input {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 1.2rem;
+  overflow: hidden;
+}
+
+.user-input__form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.user-input__input-field {
+  width: 95%;
+  height: 50px;
+  border: none;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  margin-bottom: 0.7rem;
+  font-size: 1.7rem;
+}
+
+.user-input__input-field::placeholder {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.user-input__btnAddTodo {
+  width: 80%;
+  background-color: #fdcb6e;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 1.4rem;
+  color: rgba(245, 245, 245, 0.612);
+  display: flex;
+}
+
+.info__span-error-message{
+  margin-left: auto;
+  color: #d63030e7;
+}
+
+@media screen and (min-width: 481px) {
+  .user-input {
+    margin-top: 2rem;
+  }
+
+  .user-input__input-field {
+    height: 65px;
+    margin-bottom: 1.3rem;
+    font-size: 2rem;
+  }
+
+  .user-input__btnAddTodo {
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .info {
+    margin-top: 2.6rem;
+    font-size: 1.8rem;
+  }
+}

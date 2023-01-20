@@ -1,0 +1,47 @@
+.header {
+  color: #fdcb63;
+  min-height: 13vh;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.655);
+  display: flex;
+}
+
+.header__icon {
+  flex: 1;
+  font-size: 5rem;
+  transform: rotate(-25deg);
+}
+
+.header__h1 {
+  flex: 4;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 0.6rem;
+}
+
+.header__theme-button {
+  font-size: 3rem;
+  background: none;
+  cursor: pointer;
+}
+
+.lightTheme-header { 
+  background-color:whitesmoke;
+  color: #ff3aa9dd;
+}
+
+@media screen and (min-width: 481px) {
+  .header__icon {
+    font-size: 7rem;
+  }
+
+  .header__h1 {
+    padding-top: 1.4rem;
+    font-size: 4.2rem;
+  }
+
+  .header__theme-button {
+    flex: 1;
+    font-size: 4rem;
+    padding-top: 1rem;
+  }
+}
