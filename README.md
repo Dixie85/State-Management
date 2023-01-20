@@ -9,8 +9,10 @@
 
    For the purpose of demonstrating state management, I'll use my good old ToDo app project.
 
-    As the title states, in this repository you can find several ways of managing the STATE in a React project using different tools and technologies.
+   As the title states, in this repository you can find several ways of managing the STATE in a React project using different tools and technologies.
 </div>
+<br>
+<hr>
 <div align="left">
 
  For easier understanding of the state management, my recommendation for reviewing the code is in the following order:
