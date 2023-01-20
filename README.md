@@ -18,17 +18,17 @@
 
 <div align="left">
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;  [ToDo_useState](https://github.com/Dixie85/State-Management)
+<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;  [ToDo_useState](https://github.com/Dixie85/State-Management/tree/main/ToDo_useState)
 </div>
 
 <div align="center">
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;  [ToDo_useContext](https://github.com/Dixie85/State-Management)
+<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;  [ToDo_useContext](https://github.com/Dixie85/State-Management/tree/main/ToDo_useContext)
 </div>
 
 <div align="right">
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg" title="Redux" alt="Redux " width="40" height="40"/>&nbsp;  [ToDo_Redux-Toolkit](https://github.com/Dixie85/State-Management)
+<img src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg" title="Redux" alt="Redux " width="40" height="40"/>&nbsp;  [ToDo_Redux-Toolkit](https://github.com/Dixie85/State-Management/tree/main/ToDo_Redux-Toolkit)
 </div>
 
 <hr>
