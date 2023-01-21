@@ -1,24 +1,22 @@
-import './Main.css';
+import "./Main.css";
 import InputForm from "../../Components/InputForm/InputForm";
 import TodoList from "../../Components/TodoList/TodoList";
-import { useEffect } from 'react';
-import { useSelector } from 'react-redux';
+import { useEffect } from "react";
+import { useSelector } from "react-redux";
 
+const Main = () => {
+  const todos = useSelector((state) => state.todos);
 
-const Main = () =>  {
-    const todos = useSelector((state) => state.todos);
-    console.log(todos);
+  useEffect(() => {
+    localStorage.setItem("todosList", JSON.stringify(todos));
+  }, [todos]);
 
-    useEffect(()=>{
-        localStorage.setItem('todosList', JSON.stringify(todos));
-    },[todos]);
-
-    return(
-        <main className="main">
-            <InputForm />
-            <TodoList todos={todos} />
-        </main>
-    )
+  return (
+    <main className="main">
+      <InputForm />
+      <TodoList todos={todos} />
+    </main>
+  );
 };
 
-export default Main
+export default Main;

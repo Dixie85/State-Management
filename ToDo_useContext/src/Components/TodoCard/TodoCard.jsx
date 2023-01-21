@@ -1,25 +1,24 @@
-import './TodoCard.css'
+import "./TodoCard.css";
 import Button from "../Button/Button";
 
-const TodoCard = ({todo, onToggleTodo, onDeleteTodo}) => {
-    return (
-      <li 
-      className={`todoCard todo--toggle-completed ${todo.done ? 'todo--completed' : ''}`}
+const TodoCard = ({ todo, onToggleTodo, onDeleteTodo }) => {
+  return (
+    <li
+      className={`todoCard todo--toggle-completed ${
+        todo.done ? "todo--completed" : ""
+      }`}
       onClick={() => onToggleTodo(todo.id)}
-      >
-        <span >
-          {todo.todoText}
-        </span>
-        {
-          todo.done && 
-          <Button 
-          text={'🗑'} 
-          className={'todo__button--remove'} 
+    >
+      <span>{todo.todoText}</span>
+      {todo.done && (
+        <Button
+          text={"🗑"}
+          className={"todo__button--remove"}
           onButtonClick={(e) => onDeleteTodo(e, todo.id)}
-          />
-        }
-      </li> 
-    )
+        />
+      )}
+    </li>
+  );
 };
 
-export default TodoCard
+export default TodoCard;
